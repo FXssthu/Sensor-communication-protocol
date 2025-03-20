@@ -66,7 +66,7 @@ git submodule update --init
 # 替换xml,cmake,src文件里的livox_ros_driver为livox_ros_driver2再编译
 cd ../..
 catkin_make
-
+```
 ```
 # 进入livox_ros_driver2所在的工作空间
 source devel/setup.bash
