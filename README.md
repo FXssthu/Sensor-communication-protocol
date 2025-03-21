@@ -56,7 +56,7 @@ $ ./build.sh ROS2
 $ source ./ws_livox/devel/setup.bash
 $ roslaunch livox_ros_driver2 rviz_MID360.launch
 ```
-在rviz中的style选项修改points为squares后,出现点云图像 \
+### 在rviz中的style选项修改points为squares后,出现点云图像 \
 
 c.配置FAST-LIO \
 
