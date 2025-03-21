@@ -23,9 +23,9 @@ Q:虚拟机连接雷达 \
 | FAST-LIO         | 算法应用层         | ROS消息 → 位姿与地图        | 依赖livox_ros_driver2   |  
 
 
-a.[Livox-SDK2源码](https://github.com/Livox-SDK/Livox-SDK2) \
+a.[Livox-SDK2源码](https://github.com/Livox-SDK/Livox-SDK2) 
 
-底层组件,按照官方文档sudo make install后,API被安装在系统目录下,livox_ros_driver2可直接调用 \
+底层组件,按照官方文档sudo make install后,API被安装在系统目录下,livox_ros_driver2可直接调用 
 ```
 $ git clone https://github.com/Livox-SDK/Livox-SDK2.git
 $ cd ./Livox-SDK2/
@@ -34,7 +34,7 @@ $ cmake .. && make -j
 $ sudo make install
 ```
 
-b.[livox_ros_driver2源码](https://github.com/Livox-SDK/livox_ros_driver2) \
+b.[livox_ros_driver2源码](https://github.com/Livox-SDK/livox_ros_driver2) 
 
 ```
 # 文件传输可能build运行不起来,需要直接从github拉取代码
@@ -56,9 +56,8 @@ $ ./build.sh ROS2
 $ source ./ws_livox/devel/setup.bash
 $ roslaunch livox_ros_driver2 rviz_MID360.launch
 ```
-### 在rviz中的style选项修改points为squares后,出现点云图像 \
-
-c.配置FAST-LIO \
+#### 在rviz中的style选项修改points为squares后,出现点云图像 
+c.配置FAST-LIO 
 
 ```
 sudo apt install libeigen3-dev
