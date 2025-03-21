@@ -33,7 +33,7 @@ $ mkdir build &&  cd build
 $ cmake .. && make -j
 $ sudo make install
 ```
-
+![sdk](./files/images/SDK2-success.png)
 b.[livox_ros_driver2源码](https://github.com/Livox-SDK/livox_ros_driver2) 
 
 ```
