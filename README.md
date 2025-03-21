@@ -74,6 +74,7 @@ cd FAST_LIO
 git submodule update --init
 # 替换xml,cmake,src文件里的livox_ros_driver为livox_ros_driver2再编译
 cd ../..
+# catkin build 用不了
 catkin_make
 ```
 ![fastlio](./files/images/FAST-LIO-success.png)
