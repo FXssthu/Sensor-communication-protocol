@@ -37,11 +37,16 @@ $ sudo make install
 b.[livox_ros_driver2源码](https://github.com/Livox-SDK/livox_ros_driver2) \
 
 ```
-(文件传输可能build运行不起来,需要直接从github拉取代码)
-git clone https://github.com/Livox-SDK/livox_ros_driver2.git ws_livox/src/livox_ros_driver2
-source /opt/ros/noetic/setup.bash
-cd ./ws_livox/src/livox_ros_driver2
-./build.sh ROS1
+# 文件传输可能build运行不起来,需要直接从github拉取代码
+$ git clone https://github.com/Livox-SDK/livox_ros_driver2.git ws_livox/src/livox_ros_driver2
+$ source /opt/ros/noetic/setup.bash
+$ cd ./ws_livox/src/livox_ros_driver2
+# ROS1选择
+$ ./build.sh ROS1
+# Humble选择
+$ ./build.sh humble
+# ROS2选择
+$ ./build.sh ROS2
 ```
 ```
 修改livox_ros_driver2下的config文件和launch文件,S/N码、雷达IP、虚拟机IP
