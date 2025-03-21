@@ -33,7 +33,8 @@ $ mkdir build &&  cd build
 $ cmake .. && make -j
 $ sudo make install
 ```
-![sdk](./files/images/SDK2-success.png)
+![sdk](./files/images/SKD2-success.png)
+
 b.[livox_ros_driver2源码](https://github.com/Livox-SDK/livox_ros_driver2) 
 
 ```
@@ -48,6 +49,7 @@ $ ./build.sh humble
 # ROS2选择
 $ ./build.sh ROS2
 ```
+![driver](./files/images/driver2-success.png)
 ```
 修改livox_ros_driver2下的config文件和launch文件,S/N码、雷达IP、虚拟机IP
 ```
@@ -57,6 +59,8 @@ $ source ./ws_livox/devel/setup.bash
 $ roslaunch livox_ros_driver2 rviz_MID360.launch
 ```
 #### 在rviz中的style选项修改points为squares后,出现点云图像 
+
+
 c.配置FAST-LIO 
 
 ```
