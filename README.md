@@ -85,6 +85,7 @@ roslaunch livox_ros_driver2 msg_MID360.launch
 # 再开一个终端，进入fast_lio所在的工作空间
 source devel/setup.bash
 roslaunch fast_lio mapping_mid360.launch
+# 依然是把points改成squares
 ```
 
 
