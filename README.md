@@ -38,7 +38,7 @@ $ sudo make install
 b.[livox_ros_driver2源码](https://github.com/Livox-SDK/livox_ros_driver2) 
 
 ```
-# 文件传输可能build运行不起来,需要直接从github拉取代码
+# 文件传输可能build运行不起来(因为Windows和linux的换行符不同),需要直接从github拉取代码或者先导入gitee，再git clone
 $ git clone https://github.com/Livox-SDK/livox_ros_driver2.git ws_livox/src/livox_ros_driver2
 $ source /opt/ros/noetic/setup.bash
 $ cd ./ws_livox/src/livox_ros_driver2
